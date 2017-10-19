@@ -1,0 +1,18 @@
+html {
+  font-size: 16px;
+}
+
+.container {
+  margin-left: 1.5rem;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  margin-right: 1.5rem;
+  display: flex;
+}
+
+.mobilenav {
+  display: none;
+}

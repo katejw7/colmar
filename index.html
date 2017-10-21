@@ -5,7 +5,7 @@
     <title>Colmar Academy</title>
     <link href="resources/css/reset.css" type="text/css" rel="stylesheet" />
     <link href="resources/css/style.css" type="text/css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
   </head>
 
   <body>
@@ -50,8 +50,10 @@
 
     <!--information section-->
     <section class="information">
-      <div class="container">
-        <img src="./resources/images/information-main.jpg" alt="info" />
+      <div class="left container">
+        <div class="image">
+          <img src="./resources/images/information-main.jpg" alt="info" />
+        </div>
         <div class="description">
           <h2>It doesn't hurt to keep practicing</h2>
           <p>"One must keep practicing in order to get better. Colmar Academy has prepared
@@ -59,82 +61,102 @@
           <p>Emanuel, Sr Strategist at Hiring.com</p>
         </div>
       </div>
-      <div class="container">
+      <div class="small-boxes container">
         <div class="orientation info">
           <img src="./resources/images/information-orientation.jpg" />
           <img class="mobile-image" src="./resources/images/information-orientation-mobile.jpg" />
-          <h4>Orientation date</h4>
-          <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-          <p span="read-more">Read More</p>
+          <div class="info-description">
+            <h4>Orientation date</h4>
+            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <p span="read-more">Read More</p>
+          </div>
         </div>
-        <div class="campus info">
-          <img src="./resources/images/information-campus.jpg" alt="campus" />
-          <img class="mobile-image" src="./resources/images/information-campus-mobile.jpg" />
-          <h4>Our Campus</h4>
-          <p>Find out which campus is close to you.</p>
-          <p span="read-more">Read More</p>
-        </div>
-        <div class="guest-lecture info">
-          <img src="./resources/images/information-guest-lecture.jpg" alt="guest" />
-          <img class="mobile-image" src="./resources/images/information-guest-lecture-mobile.jpg" />
-          <h4>Our Guest Lecture</h4>
-          <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-          <p span="read-more">Read More</p>
-        </div>
+          <div class="campus info">
+            <img src="./resources/images/information-campus.jpg" alt="campus" />
+            <img class="mobile-image" src="./resources/images/information-campus-mobile.jpg" />
+            <div class="info-description">
+              <h4>Our Campus</h4>
+              <p>Find out which campus is close to you.</p>
+              <p span="read-more">Read More</p>
+            </div>
+          </div>
+          <div class="guest-lecture info">
+            <img src="./resources/images/information-guest-lecture.jpg" alt="guest" />
+            <img class="mobile-image" src="./resources/images/information-guest-lecture-mobile.jpg" />
+            <div class="info-description">
+              <h4>Our Guest Lecture</h4>
+              <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+              <p span="read-more">Read More</p>
+            </div>
+          </div>
       </div>
     </section>
     <!--end information section-->
 
     <!--learning and courses section-->
     <section class="learning">
-      <div class="container">
         <h2>Start Learning</h2>
+        <div class="courses1 container">
           <div class="course">
             <div class="software-eng">
               <img src="./resources/images/course-software.jpg" alt="software" />
-              <h4>Software Engineering</h4>
-              <span class="courses">COURSES</span>
-              <p>Web Development, Mobile Development, iOT, APIs</p>
+              <div class="text">
+                <h4>Software Engineering</h4>
+                <span>COURSES</span>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+              </div>
             </div>
           </div>
           <div class="course">
             <div class="computer-art">
               <img src="./resources/images/course-computer-art.jpg" alt="computer" />
-              <h4>Computer Art</h4>
-              <span class="courses">COURSES</span>
-              <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              <div class="text">
+                <h4>Computer Art</h4>
+                <span>COURSES</span>
+                <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+              </div>
             </div>
           </div>
           <div class="course">
             <div class="design">
               <img src="./resources/images/course-design.jpg" alt="design-img" />
-              <h4>Design</h4>
-              <span class="courses">COURSES</span>
-              <p>User Experience Design, User Research, Visual Design</p>
+              <div class="text">
+                <h4>Design</h4>
+                <span>COURSES</span>
+                <p>User Experience Design, User Research, Visual Design</p>
+              </div>
             </div>
           </div>
+        </div>
+        <div class="courses2 container">
           <div class="course">
             <div class="data">
               <img src="./resources/images/course-data.jpg" alt="data-img" />
-              <h4>Data</h4>
-              <span class="courses">COURSES</span>
-              <p>Data Science, Big Data, SQL, Data Visualization</p>
+              <div class="text">
+                <h4>Data</h4>
+                <span>COURSES</span>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+              </div>
             </div>
           </div>
           <div class="course">
             <div class="business">
               <img src="./resources/images/course-business.jpg" alt="business-img" />
-              <h4>Business</h4>
-              <span class="courses">COURSES</span>
-              <p>Product Development, Business Development, Startup</p>
+              <div class="text">
+                <h4>Business</h4>
+                <span>COURSES</span>
+                <p>Product Development, Business Development, Startup</p>
+              </div>
             </div>
           </div>
           <div class="course">
             <div class="marketing">
               <img src="./resources/images/course-marketing.jpg" alt="marketing" />
-              <h4>Marketing</h4>
-              <span class="courses">COURSES</span>
-              <p>Analytics, Content Marketing, Mobile Marketing</p>
+              <div class="text">
+                <h4>Marketing</h4>
+                <span>COURSES</span>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+              </div>
             </div>
           </div>
         </div>

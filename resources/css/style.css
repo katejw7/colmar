@@ -4,11 +4,13 @@ html {
   line-height: 1.4;
 }
 
-
-
 .container {
   margin-left: 1.5rem;
   display: flex;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* begin header */
@@ -61,6 +63,10 @@ header {
   color: black;
 }
 
+.desktop ul a:hover {
+  text-decoration: underline;
+}
+
 .mobilenav {
   display: none;
 }
@@ -106,8 +112,16 @@ button {
   width: 85%;
   justify-content: center;
   background-color: #4A4947;
-  color: white;
   font-size: 1rem;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover {
+  text-decoration: underline;
 }
 
 /*end main banner */
@@ -182,6 +196,10 @@ button {
 .info-description a {
   text-decoration: none;
 }
+
+.info-description a:hover {
+    text-decoration: underline;
+  }
 
 .mobile-image {
   display: none;
@@ -337,6 +355,10 @@ button {
     padding-right: 2.5rem;
   }
 
+  .design .text, .data .text, .marketing .text {
+    padding-bottom: 1.5rem;
+  }
+
 }
 /* end tablet mobile */
 
@@ -455,6 +477,10 @@ button {
     color: black;
   }
 
+  .mobile-courses a:hover {
+    text-decoration: underline;
+  }
+
   .mobile-courses h3 {
     background: #CCCAC5;
     width: 100%;
@@ -496,3 +522,4 @@ button {
   }
 
 }
+/* end mobile */
